@@ -1,8 +1,8 @@
 aid: lightbox
 name: LightBox
 description: >-
-  Power your digital workflows using comprehensiveproperty and location
-  intelligence data from LightBox 
+  Power your digital workflows using comprehensiveproperty and location intelligence
+  data from LightBox.
 type: Index
 position: Consumer
 access: 3rd-Party
@@ -18,8 +18,8 @@ apis:
   - aid: lightbox:lightbox
     name: LightBox
     description: >-
-      Power your digital workflows using comprehensiveproperty and location
-      intelligence data from LightBox 
+      Power your digital workflows using comprehensiveproperty and location intelligence
+      data from LightBox.
     humanURL: ' https://developer.lightboxre.com/'
     tags:
       - API

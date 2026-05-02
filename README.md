@@ -1,38 +1,43 @@
 # LightBox (lightbox)
-Power your digital workflows using comprehensiveproperty and location intelligence data from LightBox 
+
+Power your digital workflows using comprehensive property and location intelligence data from LightBox.
 
 **URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/lightbox/refs/heads/main/apis.yml)
 
 ## Scope
 
-- **Type:** Index 
-- **Position:** Consuming 
-- **Access:** 3rd-Party 
+- **Type:** Index
+- **Position:** Consumer
+- **Access:** 3rd-Party
 
-## Tags:
+## Tags
 
- - API
+- Location Intelligence
+- Property Data
+- Real Estate
 
 ## Timestamps
 
-- **Created:** 2025-02-17 
-- **Modified:** 2026-03-16 
+- **Created:** 2025-02-17
+- **Modified:** 2026-04-28
 
 ## APIs
 
 ### LightBox
-Power your digital workflows using comprehensiveproperty and location intelligence data from LightBox 
 
-**Human URL:** [ https://developer.lightboxre.com/]( https://developer.lightboxre.com/)
+Power your digital workflows using comprehensive property and location intelligence data from LightBox.
 
+**Human URL:** [https://developer.lightboxre.com/](https://developer.lightboxre.com/)
 
-#### Tags:
+#### Tags
 
- - API
+- Location Intelligence
+- Property Data
+- Real Estate
 
 #### Properties
 
-- [Documentation]( https://developer.lightboxre.com/)
+- [Documentation](https://developer.lightboxre.com/)
 
 ## Maintainers
 

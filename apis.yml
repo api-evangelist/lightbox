@@ -1,8 +1,7 @@
 aid: lightbox
 name: LightBox
-description: >-
-  Power your digital workflows using comprehensive property and location
-  intelligence data from LightBox.
+description: Power your digital workflows using comprehensive property and location intelligence data
+  from LightBox.
 type: Index
 deliveryModel:
   model: unknown
@@ -31,41 +30,41 @@ position: Consuming
 access: 3rd-Party
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lightbox.png
 tags:
+- Location Intelligence
+- Property Data
+- Real-Estate
+tags_raw:
+- Location Intelligence
+- Property Data
+- Real Estate
+created: '2025-02-17'
+modified: '2026-09-16'
+url: https://raw.githubusercontent.com/api-evangelist/lightbox/refs/heads/main/apis.yml
+specificationVersion: '0.23'
+common:
+- type: Website
+  url: https://lightboxre.com
+- type: DomainSecurity
+  url: security/lightbox-domain-security.yml
+- type: LinkedIn
+  url: https://www.linkedin.com/company/lightbox-re
+apis:
+- aid: lightbox:lightbox
+  name: LightBox
+  description: Power your digital workflows using comprehensive property and location intelligence data
+    from LightBox.
+  humanURL: https://developer.lightboxre.com/
+  tags:
   - Location Intelligence
   - Property Data
   - Real-Estate
-tags_raw:
+  tags_raw:
   - Location Intelligence
   - Property Data
   - Real Estate
-created: '2025-02-17'
-modified: '2026-04-28'
-url: >-
-  https://raw.githubusercontent.com/api-evangelist/lightbox/refs/heads/main/apis.yml
-specificationVersion: '0.23'
-common:
-  - type: DomainSecurity
-    url: security/lightbox-domain-security.yml
-  - type: LinkedIn
-    url: https://www.linkedin.com/company/lightbox-re
-apis:
-  - aid: lightbox:lightbox
-    name: LightBox
-    description: >-
-      Power your digital workflows using comprehensive property and location
-      intelligence data from LightBox.
-    humanURL: https://developer.lightboxre.com/
-    tags:
-      - Location Intelligence
-      - Property Data
-      - Real-Estate
-    tags_raw:
-      - Location Intelligence
-      - Property Data
-      - Real Estate
-    properties:
-      - type: Documentation
-        url: https://developer.lightboxre.com/
+  properties:
+  - type: Documentation
+    url: https://developer.lightboxre.com/
 maintainers:
-  - FN: Kin Lane
-    email: kin@apievangelist.com
+- FN: Kin Lane
+  email: kin@apievangelist.com

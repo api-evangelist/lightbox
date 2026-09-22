@@ -65,6 +65,20 @@ apis:
   properties:
   - type: Documentation
     url: https://developer.lightboxre.com/
+- aid: lightbox:lightbox-zoning-api-zoning-api
+  name: LightBox Zoning API
+  description: Zoning lookups by parcel, address, or geometry
+  humanURL: https://developer.lightboxre.com/api/zoning
+  baseURL: https://api.lightboxre.com/v1
+  tags:
+  - Zoning
+  properties:
+  - type: OpenAPI
+    url: openapi/lightbox-zoning-api-zoning-api-openapi.yml
+  - type: Documentation
+    url: https://developer.lightboxre.com/api/zoning
+  - type: Portal
+    url: https://developer.lightboxre.com/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com

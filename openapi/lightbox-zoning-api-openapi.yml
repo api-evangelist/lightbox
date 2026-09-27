@@ -94,17 +94,6 @@ components:
             coordinates:
               type: array
               items: {}
-    ZoningResponse:
-      type: object
-      properties:
-        parcelId:
-          type: string
-        address:
-          type: string
-        records:
-          type: array
-          items:
-            $ref: '#/components/schemas/ZoningRecord'
     ZoningRecord:
       type: object
       properties:
@@ -143,6 +132,17 @@ components:
           type: number
         minLotSize:
           type: number
+    ZoningResponse:
+      type: object
+      properties:
+        parcelId:
+          type: string
+        address:
+          type: string
+        records:
+          type: array
+          items:
+            $ref: '#/components/schemas/ZoningRecord'
   securitySchemes:
     apiKeyAuth:
       type: apiKey

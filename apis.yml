@@ -32,11 +32,12 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lightbox.p
 tags:
 - Location Intelligence
 - Property Data
-- Real-Estate
+- Real Estate
 tags_raw:
 - Location Intelligence
 - Property Data
 - Real Estate
+- Real-Estate
 created: '2025-02-17'
 modified: '2026-09-16'
 url: https://raw.githubusercontent.com/api-evangelist/lightbox/refs/heads/main/apis.yml
@@ -51,30 +52,31 @@ common:
 apis:
 - aid: lightbox:lightbox
   name: LightBox
-  description: Power your digital workflows using comprehensive property and location intelligence data
-    from LightBox.
+  description: >-
+    Power your digital workflows using comprehensive property and location intelligence data from LightBox.
   humanURL: https://developer.lightboxre.com/
   tags:
   - Location Intelligence
   - Property Data
-  - Real-Estate
+  - Real Estate
   tags_raw:
   - Location Intelligence
   - Property Data
   - Real Estate
+  - Real-Estate
   properties:
   - type: Documentation
     url: https://developer.lightboxre.com/
-- aid: lightbox:lightbox-zoning-api-zoning-api
+- aid: lightbox:lightbox-zoning-api
   name: LightBox Zoning API
   description: Zoning lookups by parcel, address, or geometry
-  humanURL: https://developer.lightboxre.com/api/zoning
+  humanURL: https://developer.lightboxre.com/
   baseURL: https://api.lightboxre.com/v1
   tags:
   - Zoning
   properties:
   - type: OpenAPI
-    url: openapi/lightbox-zoning-api-zoning-api-openapi.yml
+    url: openapi/lightbox-zoning-api-openapi.yml
   - type: Documentation
     url: https://developer.lightboxre.com/api/zoning
   - type: Portal

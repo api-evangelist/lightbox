@@ -1,20 +1,19 @@
 {
   "provider": "lightbox",
   "sources": [
-    "lightbox-zoning-api-zoning-api-openapi.yml"
+    "_original/lightbox-zoning-api-zoning-api-openapi.yml"
   ],
   "outputs": [
     "lightbox-zoning-api-openapi.yml"
   ],
-  "archived": [
-    "archived openapi/lightbox-zoning-api-zoning-api-openapi.yml"
-  ],
+  "archived": [],
   "errors": [],
-  "warnings": [
-    "no openapi/_original/ archive: this run re-split PREVIOUSLY REFINED output, so any base URL it carries is inherited from an earlier pass rather than read from a document the provider published"
-  ],
+  "warnings": [],
   "notes": [
-    "apis.yml register: written (+1 apis, 2 total)"
+    "sourced from openapi/_original/ (1 archived document(s)); previously refined output at the top level was skipped rather than re-split",
+    "apis.yml register: already-registered"
   ],
-  "skipped": []
+  "skipped": [
+    "lightbox-zoning-api-openapi.yml: previously refined output, superseded by openapi/_original/"
+  ]
 }

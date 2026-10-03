@@ -76,24 +76,6 @@ paths:
                 $ref: '#/components/schemas/ZoningResponse'
 components:
   schemas:
-    GeometryRequest:
-      type: object
-      required:
-      - geometry
-      properties:
-        geometry:
-          type: object
-          description: GeoJSON geometry (Point, Polygon, or MultiPolygon)
-          properties:
-            type:
-              type: string
-              enum:
-              - Point
-              - Polygon
-              - MultiPolygon
-            coordinates:
-              type: array
-              items: {}
     ZoningRecord:
       type: object
       properties:
@@ -132,6 +114,24 @@ components:
           type: number
         minLotSize:
           type: number
+    GeometryRequest:
+      type: object
+      required:
+      - geometry
+      properties:
+        geometry:
+          type: object
+          description: GeoJSON geometry (Point, Polygon, or MultiPolygon)
+          properties:
+            type:
+              type: string
+              enum:
+              - Point
+              - Polygon
+              - MultiPolygon
+            coordinates:
+              type: array
+              items: {}
     ZoningResponse:
       type: object
       properties:
